@@ -3,7 +3,7 @@ import os
 import sys
 
 here = os.path.abspath(os.path.dirname(__file__))
-sys.path.insert(0, os.path.join(here, 'SustainBench'))
+sys.path.insert(0, os.path.join(here, 'sustainbench'))
 from version import __version__
 
 print(f'Version {__version__}')
